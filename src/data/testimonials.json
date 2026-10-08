@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "quote": "I ordered the Kaolin Mist serving bowl for our new home and I genuinely haven't stopped staring at it. Every dinner feels like a curated event. This is not just tableware — this is art you eat from.",
+    "name": "Priya Raghunathan",
+    "designation": "Interior Architect, Bangalore",
+    "avatar": "PR"
+  },
+  {
+    "id": 2,
+    "quote": "We sourced twelve Anssi pieces for a luxury villa project in Goa. The clients didn't just love them — they asked for the brand name so they could order more. The quality and the story behind each piece really lands.",
+    "name": "Arjun Mehra",
+    "designation": "Principal Designer, Studio Lumen",
+    "avatar": "AM"
+  },
+  {
+    "id": 3,
+    "quote": "The walnut burl bowl is extraordinary. I've been collecting designer tableware for fifteen years and I've never had a piece that generates so much conversation. People pick it up, turn it over, and don't want to put it down.",
+    "name": "Samantha D'Cruz",
+    "designation": "Lifestyle Curator & Stylist",
+    "avatar": "SD"
+  },
+  {
+    "id": 4,
+    "quote": "Our restaurant runs a table-to-table concept where each piece of tableware is as considered as the food itself. We chose Anssi Bowls for our signature dessert course and the feedback has been unanimous. It elevates the entire experience.",
+    "name": "Chef Vikram Anand",
+    "designation": "Executive Chef, Terroir Restaurant",
+    "avatar": "VA"
+  },
+  {
+    "id": 5,
+    "quote": "I bought the wabi-sabi rice bowl set as a gift for a friend, and then immediately ordered a set for myself. There's something so satisfying about the weight of them, the slight imperfection. Breakfast feels like a ceremony now.",
+    "name": "Nandini Krishnamurthy",
+    "designation": "Wellness Entrepreneur, Chennai",
+    "avatar": "NK"
+  },
+  {
+    "id": 6,
+    "quote": "We did a full customisation project with Anssi for a corporate gifting brief — 200 branded ceramic bowls, hand-painted with our logo. The execution was flawless, the delivery was on time, and the client was genuinely moved by the gesture.",
+    "name": "Rohit Singhania",
+    "designation": "Head of Brand Experience, Pinnacle Corp",
+    "avatar": "RS"
+  }
+]

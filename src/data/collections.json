@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ceramic",
+    "name": "Ceramic & Porcelain Bowls",
+    "subtitle": "Kiln-Fired. Ultra-Smooth. Impermeable.",
+    "description": "High-density vitreous china and matte ceramic countertop basins designed with precision fluid contours and anti-bacterial glaze.",
+    "image": "/bowls/anssi-signature-emerald-gold.jpg",
+    "href": "/collections/ceramic",
+    "count": 4,
+    "tab": "Bowls"
+  },
+  {
+    "id": "stone",
+    "name": "Natural Stone & Marble",
+    "subtitle": "Single-Block. Hand-Carved. Eternal.",
+    "description": "Monolithic wash basin bowls carved from genuine Italian Calacatta marble, Spanish Nero Marquina, chiseled Travertine, and backlit Onyx.",
+    "image": "/bowls/calacatta-fluted-marble-basin.jpg",
+    "href": "/collections/stone",
+    "count": 4,
+    "tab": "Bowls"
+  },
+  {
+    "id": "minimalist",
+    "name": "Minimalist Matte Series",
+    "subtitle": "Knife-Edge. Pure Form. Understated.",
+    "description": "Ultra-thin edge vessel bowls with velvet matte tactile finish in architectural monochrome black, graphite, and muted tones.",
+    "image": "/bowls/matte-black-minimalist-basin.jpg",
+    "href": "/collections/minimalist",
+    "count": 2,
+    "tab": "Bowls"
+  },
+  {
+    "id": "metallic",
+    "name": "Metallic & PVD Gold",
+    "subtitle": "Aerospace Titanium. Satin Luster. Opulent.",
+    "description": "Premium 304 stainless steel basins fortified with titanium PVD champagne gold coating for scratch-resistant regal presence.",
+    "image": "/bowls/brushed-champagne-gold-basin.jpg",
+    "href": "/collections/metallic",
+    "count": 1,
+    "tab": "Bowls"
+  },
+  {
+    "id": "terrazzo",
+    "name": "Venetian Terrazzo",
+    "subtitle": "Hand-Cast. Marble Chips. Architectural.",
+    "description": "Bespoke composite wash basins embedded with hand-selected marble aggregate and diamond-polished to a soft honed sheen.",
+    "image": "/bowls/terrazzo-artisan-composite-basin.jpg",
+    "href": "/collections/terrazzo",
+    "count": 1,
+    "tab": "Bowls"
+  },
+  {
+    "id": "artisan",
+    "name": "Artisan Reactive & Terracotta",
+    "subtitle": "1280°C Kiln. Crystalline Depth. Organic.",
+    "description": "Living ceramic art featuring crystalline cobalt glazes and rustic sun-baked terracotta bowls with hammered solid brass borders.",
+    "image": "/bowls/cobalt-reactive-glaze-basin.jpg",
+    "href": "/collections/artisan",
+    "count": 2,
+    "tab": "Bowls"
+  }
+]
