@@ -232,11 +232,11 @@ export default function BowlGalleryShowcase({ onEnquiry }) {
           className="mt-16 bg-[#162017] text-[#FAF7F2] rounded-3xl p-6 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl border border-[#D5BA76]/30"
         >
           <div className="flex items-center gap-4 text-center md:text-left">
-            <div className="w-14 h-14 rounded-2xl bg-[#FAF7F2]/10 border border-[#D5BA76]/40 p-1 flex items-center justify-center shrink-0 hidden sm:flex">
+            <div className="h-14 shrink-0 hidden sm:flex items-center">
               <img
-                src="/brand/anssi-symbol.png"
-                alt="ANSSI Symbol"
-                className="w-full h-full object-contain"
+                src="/brand/anssi-logo-full-gold.png"
+                alt="ANSSI Bowls - Designs That Speaks Elegance"
+                className="h-12 w-auto object-contain"
               />
             </div>
             <div>

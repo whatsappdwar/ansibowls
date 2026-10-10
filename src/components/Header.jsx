@@ -88,27 +88,17 @@ export default function Header({ onEnquiry, onOpenCard }) {
           }`}
         >
           <div className="container-wide flex items-center justify-between gap-4">
-            {/* Logo */}
+            {/* Logo - Pure Transparent High-Contrast Antique Gold */}
             <Link
               to="/"
-              aria-label="ANSSI Bowls — Home"
-              className="shrink-0 flex items-center gap-3 focus:outline-none group"
+              aria-label="ANSSI Bowls — Designs That Speaks Elegance"
+              className="shrink-0 flex items-center focus:outline-none group py-0.5"
             >
-              <div className="w-10 h-10 rounded-lg overflow-hidden border border-[#D5BA76]/50 bg-[#28362A] p-0.5 flex items-center justify-center shadow-sm">
-                <img
-                  src="/brand/anssi-symbol.png"
-                  alt="ANSSI Bowls Symbol"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="flex flex-col leading-none">
-                <span className="font-serif text-2xl font-bold tracking-tight text-[#2B2B2B] group-hover:text-[#354737] transition-colors">
-                  ANSSI
-                </span>
-                <span className="font-sans text-[10px] font-semibold tracking-[0.35em] uppercase text-[#B08D57] -mt-0.5">
-                  BOWLS
-                </span>
-              </div>
+              <img
+                src="/brand/anssi-logo-full-antique-gold.png"
+                alt="ANSSI Bowls - Designs That Speaks Elegance"
+                className="h-12 sm:h-14 md:h-15 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+              />
             </Link>
 
             {/* Desktop Nav */}

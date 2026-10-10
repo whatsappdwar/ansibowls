@@ -59,12 +59,9 @@ export default function Contact({ onOpenCard }) {
             <Reveal>
               <div className="bg-[#172018] rounded-3xl p-6 sm:p-7 border border-[#D5BA76]/40 text-[#FAF7F2] shadow-2xl">
                 <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-2.5">
-                    <img src="/brand/anssi-symbol.png" alt="ANSSI Symbol" className="w-8 h-8 rounded object-contain bg-[#FAF7F2]/10 p-0.5" />
-                    <div>
-                      <h3 className="font-serif text-lg font-semibold text-[#FAF7F2]">Official Business Card</h3>
-                      <p className="text-[10px] text-[#D5BA76] uppercase tracking-wider font-sans">Scan For Catalog</p>
-                    </div>
+                  <div className="flex items-center gap-3">
+                    <img src="/brand/anssi-logo-full-gold.png" alt="ANSSI Bowls" className="h-10 w-auto object-contain" />
+                    <span className="text-[10px] text-[#D5BA76] uppercase tracking-wider font-sans border-l border-[#FAF7F2]/20 pl-2.5 hidden sm:inline-block">Official Business Card</span>
                   </div>
                   <button
                     onClick={onOpenCard}

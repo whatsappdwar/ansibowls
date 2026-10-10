@@ -26,16 +26,15 @@ export default function BusinessCardModal({ isOpen, onClose }) {
         >
           {/* Header */}
           <div className="flex items-center justify-between px-6 py-4 border-b border-[#FAF7F2]/10 bg-[#161D17]">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <img
-                src="/brand/anssi-symbol.png"
-                alt="ANSSI Logo Symbol"
-                className="w-8 h-8 rounded object-contain bg-[#FAF7F2]/10 p-0.5"
+                src="/brand/anssi-logo-full-gold.png"
+                alt="ANSSI Bowls - Designs That Speaks Elegance"
+                className="h-10 w-auto object-contain"
               />
-              <div>
-                <h3 className="font-serif text-lg text-[#FAF7F2]">ANSSI Bowls</h3>
-                <p className="font-sans text-[11px] text-[#D5BA76] tracking-wider uppercase">Official Business Card & Catalog</p>
-              </div>
+              <span className="text-[11px] font-sans text-[#D5BA76] uppercase tracking-wider hidden sm:inline-block border-l border-[#FAF7F2]/20 pl-3">
+                Official Business Card & Catalog
+              </span>
             </div>
             <button
               onClick={onClose}

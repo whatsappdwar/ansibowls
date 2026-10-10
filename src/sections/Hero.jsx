@@ -78,17 +78,18 @@ export default function Hero({ onEnquiry, onOpenCard }) {
       {/* Main Content */}
       <div className="relative z-10 container-wide pt-36 pb-24 sm:pt-44 sm:pb-32">
         <div className="max-w-2xl sm:max-w-3xl">
-          {/* Brand Tagline Badge */}
+          {/* Official Brand Logo - Pure Transparent Without Background */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#FAF7F2]/10 backdrop-blur-md border border-[#D5BA76]/40 mb-6 shadow-md"
+            className="mb-6 inline-block"
           >
-            <Sparkles size={13} className="text-[#D5BA76]" />
-            <span className="font-serif italic text-sm text-[#D5BA76]">Designs That Speaks Elegance</span>
-            <span className="text-[#FAF7F2]/30">•</span>
-            <span className="font-sans text-[11px] text-[#FAF7F2]/80 uppercase tracking-widest font-medium">ANSSI Bowls</span>
+            <img
+              src="/brand/anssi-logo-full-gold.png"
+              alt="ANSSI Bowls - Designs That Speaks Elegance"
+              className="h-14 sm:h-16 md:h-18 w-auto object-contain filter drop-shadow-[0_4px_16px_rgba(213,186,118,0.35)]"
+            />
           </motion.div>
 
           {/* Dynamic Headline Based on Active Slide */}

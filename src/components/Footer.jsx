@@ -52,16 +52,12 @@ export default function Footer({ onOpenCard }) {
       {/* Top Banner with Gold Logo */}
       <div className="border-b border-[#FAF7F2]/10 bg-[#141B15]">
         <div className="container-wide py-8 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center">
             <img
-              src="/brand/anssi-logo-gold.png"
+              src="/brand/anssi-logo-full-gold.png"
               alt="ANSSI Bowls - Designs That Speaks Elegance"
-              className="h-16 w-auto object-contain rounded-lg border border-[#D5BA76]/30 bg-[#28362A] p-1.5 shadow-md"
+              className="h-16 sm:h-20 w-auto object-contain filter drop-shadow-[0_4px_16px_rgba(213,186,118,0.25)]"
             />
-            <div>
-              <p className="font-serif text-xl sm:text-2xl text-[#FAF7F2]">ANSSI Bowls</p>
-              <p className="font-serif italic text-sm text-[#D5BA76]">Designs That Speaks Elegance</p>
-            </div>
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
@@ -91,18 +87,12 @@ export default function Footer({ onOpenCard }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
           {/* Brand Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg overflow-hidden border border-[#D5BA76]/40 bg-[#28362A] p-0.5">
-                <img
-                  src="/brand/anssi-symbol.png"
-                  alt="ANSSI Symbol"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div>
-                <span className="font-serif text-xl font-bold text-[#FAF7F2]">ANSSI Bowls</span>
-                <span className="block text-[10px] uppercase tracking-widest text-[#D5BA76]">Designs That Speaks Elegance</span>
-              </div>
+            <div className="mb-5">
+              <img
+                src="/brand/anssi-logo-full-gold.png"
+                alt="ANSSI Bowls - Designs That Speaks Elegance"
+                className="h-14 sm:h-16 w-auto object-contain"
+              />
             </div>
 
             <p className="text-xs text-[#FAF7F2]/65 leading-relaxed mb-6 max-w-sm">

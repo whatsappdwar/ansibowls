@@ -39,18 +39,14 @@ export default function MobileMenu({ isOpen, onClose, onEnquiry, onOpenCard }) {
           >
             <div>
               {/* Drawer Header */}
-              <div className="flex items-center justify-between px-6 py-5 border-b border-[#E8E0D5] bg-[#1C241D] text-[#FAF7F2]">
-                <div className="flex items-center gap-3">
+              <div className="flex items-center justify-between px-5 py-4 border-b border-[#FAF7F2]/10 bg-[#161F17] text-[#FAF7F2]">
+                <Link to="/" onClick={onClose} className="block focus:outline-none">
                   <img
-                    src="/brand/anssi-symbol.png"
-                    alt="ANSSI Symbol"
-                    className="w-9 h-9 rounded object-contain bg-[#FAF7F2]/10 p-0.5 border border-[#D5BA76]/40"
+                    src="/brand/anssi-logo-full-gold.png"
+                    alt="ANSSI Bowls - Designs That Speaks Elegance"
+                    className="h-11 sm:h-12 w-auto object-contain"
                   />
-                  <div>
-                    <h3 className="font-serif text-lg font-semibold text-[#FAF7F2]">ANSSI Bowls</h3>
-                    <p className="font-sans text-[10px] text-[#D5BA76] tracking-wider uppercase">Designs That Speaks Elegance</p>
-                  </div>
-                </div>
+                </Link>
                 <button
                   onClick={onClose}
                   aria-label="Close menu"
