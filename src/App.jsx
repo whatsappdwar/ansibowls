@@ -14,6 +14,7 @@ import ProductList from './pages/ProductList'
 import ProductDetail from './pages/ProductDetail'
 import Cart from './pages/Cart'
 import Wishlist from './pages/Wishlist'
+import Matteo from './pages/Matteo'
 import EnquiryModal from './components/EnquiryModal'
 import BusinessCardModal from './components/BusinessCardModal'
 
@@ -56,6 +57,7 @@ function AppLayout() {
           <Route path="/products/:slug" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/matteo" element={<Matteo onOpenCard={() => setCardOpen(true)} />} />
           {/* Fallback */}
           <Route
             path="*"

@@ -116,33 +116,21 @@ export default function Hero({ onEnquiry, onOpenCard }) {
                 {active.subtitle}
               </p>
 
-              {/* Specs Pill Strip */}
-              <div className="flex flex-wrap items-center gap-3 mb-8 text-xs font-sans text-[#FAF7F2]/90">
-                <span className="bg-[#FAF7F2]/10 border border-[#FAF7F2]/20 px-3 py-1.5 rounded-lg">
-                  Material: <strong className="text-[#D5BA76]">{active.material}</strong>
-                </span>
-                <span className="bg-[#FAF7F2]/10 border border-[#FAF7F2]/20 px-3 py-1.5 rounded-lg">
-                  Dimensions: <strong>{active.dimensions}</strong>
-                </span>
-                <span className="bg-[#FAF7F2]/10 border border-[#FAF7F2]/20 px-3 py-1.5 rounded-lg">
-                  Catalogue: <strong className="text-[#D5BA76]">{active.price}</strong>
-                </span>
-              </div>
             </motion.div>
           </AnimatePresence>
 
-          {/* Action Buttons */}
+          {/* Streamlined Action Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex flex-wrap items-center gap-3.5"
+            className="flex flex-wrap items-center gap-3.5 mt-8"
           >
             <a
-              href="#showcase-gallery"
+              href="#brand-selection"
               className="btn-primary"
             >
-              <span>Explore All 13 Bowls</span>
+              <span>Explore Brand Collections</span>
               <ArrowRight size={15} />
             </a>
 
@@ -153,16 +141,6 @@ export default function Hero({ onEnquiry, onOpenCard }) {
               <QrCode size={15} className="text-[#D5BA76]" />
               <span>Catalog & Business Card</span>
             </button>
-
-            <a
-              href="https://wa.me/919121381429?text=Hello%20Ravi%20Sanghavi%2C%20I%20am%20interested%20in%20ANSSI%20Bowls%20catalog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#25D366] hover:bg-[#20ba5a] text-white text-xs font-semibold uppercase tracking-wider px-5 py-3.5 rounded-xl flex items-center gap-2 shadow-lg transition-transform hover:scale-105"
-            >
-              <MessageSquare size={15} />
-              <span>WhatsApp (+91 91213-81429)</span>
-            </a>
           </motion.div>
         </div>
       </div>

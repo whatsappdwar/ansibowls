@@ -40,7 +40,7 @@ export default function BowlGalleryShowcase({ onEnquiry }) {
   }
 
   return (
-    <section className="py-24 sm:py-32 bg-[#FAF8F5] relative overflow-hidden" id="showcase-gallery">
+    <section className="py-24 sm:py-32 bg-[#FAF8F5] relative overflow-hidden scroll-mt-20" id="anssi-showcase">
       {/* Subtle architectural ambient lights */}
       <div className="absolute top-1/4 -right-40 w-96 h-96 bg-[#D5BA76]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 -left-40 w-96 h-96 bg-[#1A251C]/5 rounded-full blur-3xl pointer-events-none" />

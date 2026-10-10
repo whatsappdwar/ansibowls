@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import Hero from '../sections/Hero'
+import BrandGateway from '../sections/BrandGateway'
 import MarqueeTicker from '../components/MarqueeTicker'
 import BowlGalleryShowcase from '../sections/BowlGalleryShowcase'
 import OurStory from '../sections/OurStory'
@@ -17,7 +18,8 @@ export default function Home({ onEnquiry, onOpenCard }) {
   return (
     <main>
       <Hero onEnquiry={onEnquiry} onOpenCard={onOpenCard} />
-      <MarqueeTicker />
+       <MarqueeTicker />
+      <BrandGateway />
       <BowlGalleryShowcase onEnquiry={onEnquiry} />
       <OurStory />
       <WhyAnssi />
